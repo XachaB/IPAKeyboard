@@ -16,3 +16,8 @@ and
 
     ~/.local/share/onboard/themes/
 
+Then launch onboard
+
+    onboard
+
+Go to the preferences : `Preferences > Layout` and select `IPA`. Then go to `Preferences > Theme` and also select `IPA`
