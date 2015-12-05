@@ -66,15 +66,15 @@
         <key char="ɵ" group="extra" id="ext1" tooltip="rounded schwa" label="ɵ"/>
         <key char="ː" group="extra" id="ext2" tooltip="long" label="ː"/>
         <key char="ˈ" group="extra" id="ext3" tooltip="stress" label="ˈ"/>
-        <key char="̃" group="extra" id="ext4" tooltip="nasalised" label="◌̃"/>
-        <key char="̹" group="extra" id="ext5" tooltip="more rounded" label="◌̹"/>
-        <key char="̜" group="extra" id="ext6" tooltip="less rounded" label="◌̜"/>
-        <key char="̟" group="extra" id="ext7" tooltip="advanced" label="◌̟"/>
-        <key char="̱" group="extra" id="ext8" tooltip="retracted" label="◌̱"/>
-        <key char="̈" group="extra" id="ext9" tooltip="centralized" label="◌̈"/>
-        <key char="̽" group="extra" id="ext10" tooltip="mid-centralized" label="◌̽"/>
-        <key char="̣" group="extra" id="ext11" tooltip="syllabic" label="◌̣"/>
-        <key char="̯" group="extra" id="ext12" tooltip="non syllabic" label="◌̯"/>
+        <key char="̃" group="extra" id="ext4" tooltip="nasalised" label="⚬̃"/>
+        <key char="̹" group="extra" id="ext5" tooltip="more rounded" label="⚬̹"/>
+        <key char="̜" group="extra" id="ext6" tooltip="less rounded" label="⚬̜"/>
+        <key char="̟" group="extra" id="ext7" tooltip="advanced" label="⚬̟"/>
+        <key char="̱" group="extra" id="ext8" tooltip="retracted" label="⚬̱"/>
+        <key char="̈" group="extra" id="ext9" tooltip="centralized" label="⚬̈"/>
+        <key char="̽" group="extra" id="ext10" tooltip="mid-centralized" label="⚬̽"/>
+        <key char="̣" group="extra" id="ext11" tooltip="syllabic" label="⚬̣"/>
+        <key char="̯" group="extra" id="ext12" tooltip="non syllabic" label="⚬̯"/>
 
         <key group="legend" id="txt1" label="Front"/>
         <key group="legend" id="txt3" label="Central"/>
@@ -253,7 +253,7 @@
         <key char="ʡ" group="extra5" id="ext5" tooltip="vd epiglottal plosive" label="ʡ"/>
         <key char="ʢ" group="extra6" id="ext6" tooltip="vd epiglottal fricative" label="ʢ"/>
         <key char="ɧ" group="extra7" id="ext7" tooltip="vl multiple-place fricative" label="ɧ"/>
-        <key char="ʲ" group="extra8" id="ext8" tooltip="palatalized" label="◌ʲ"/>
+        <key char="ʲ" group="extra8" id="ext8" tooltip="palatalized" label="⚬ʲ"/>
 
 
 
