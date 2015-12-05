@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <color_scheme name="IPA" format="2.0">
-    <layer> <color element="background" rgb="#e1e1e1" opacity="1.0"/> </layer>
-    <layer> <color element="background" rgb="#e1e1e1" opacity="1.0"/> </layer>
-    <layer> <color element="background" rgb="#e1e1e1" opacity="1.0"/> </layer>
-    <layer> <color element="background" rgb="#e1e1e1" opacity="1.0"/> </layer>
+    <layer> <color element="background" rgb="#f1f1f1" opacity="1.0"/> </layer>
+    <layer> <color element="background" rgb="#f1f1f1" opacity="1.0"/> </layer>
+    <layer> <color element="background" rgb="#f1f1f1" opacity="1.0"/> </layer>
+    <layer> <color element="background" rgb="#f1f1f1" opacity="1.0"/> </layer>
 
     <!-- white default -->
 
     <key_group>
-        <color element="fill"   rgb="#f9f9f9"/>
+        <color element="fill"   rgb="#ffffff"/>
         <color element="stroke" rgb="#DD4814"/>
         <color element="label"  rgb="#000000"/>
         <color element="dwell-progress" rgb="#f19671"/>
@@ -29,7 +29,7 @@
 
         <!-- text -->
         <key_group>
-            <color element="fill"  rgb="#e1e1e1"/>
+            <color element="fill"  rgb="#f1f1f1"/>
             <color element="label" rgb="#000000"/>
             txt1, txt2, txt3, txt4, txt5, txt6, txt7, txt8, txt9, txt10,
             txt11, txt12, txt13, txt14, txt15, txt16, txt17, txt18, txt19,
@@ -61,7 +61,7 @@
 
         <!-- light gray, bottom row -->
         <key_group>
-            <color element="fill" rgb="#f9f9f9"/>
+            <color element="fill" rgb="#ffffff"/>
             RCTL, LCTL, RALT, LALT, LWIN, RWIN, MENU,
             LEFT, RGHT, UP, DOWN,
             KP0, KPDL,

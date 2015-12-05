@@ -30,9 +30,9 @@
      inkscape:window-height="746"
      id="namedview82"
      showgrid="true"
-     inkscape:zoom="1.1172287"
-     inkscape:cx="266.77202"
-     inkscape:cy="179.56301"
+     inkscape:zoom="1.58"
+     inkscape:cx="210.29267"
+     inkscape:cy="151.45583"
      inkscape:window-x="0"
      inkscape:window-y="20"
      inkscape:window-maximized="1"
@@ -63,7 +63,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -284,56 +284,24 @@
      x="162.63158" />
   <rect
      inkscape:label="#move"
-     x="312.5741"
-     y="0.5749343"
+     x="288.57416"
+     y="0.57416326"
      width="22.851303"
      height="22.851671"
      style="fill:#f2e5d8;stroke:#000000;stroke-width:1.14832747"
      id="move" />
   <rect
-     id="rect3385-1"
-     style="fill:#f2e5d8;stroke:#000000;stroke-width:1.14832747"
-     height="22.851671"
-     width="22.851303"
-     y="0.5749343"
-     x="288.5741"
-     inkscape:label="#hide" />
-  <rect
-     inkscape:label="#quit"
-     x="288.5741"
-     y="0.5749343"
-     width="22.851303"
-     height="22.851671"
-     style="fill:#f2e5d8;stroke:#000000;stroke-width:1.14832747"
-     id="quit-1" />
-  <rect
-     id="settings-4"
-     style="fill:#f2e5d8;stroke:#000000;stroke-width:1.14832747"
-     height="22.851671"
-     width="22.851303"
-     y="0.5749343"
-     x="264.57416"
-     inkscape:label="#settings" />
-  <rect
      inkscape:label="#hide"
-     x="288.5741"
-     y="0.57416373"
+     x="312.57416"
+     y="0.57416326"
      width="22.851303"
      height="22.851671"
      style="fill:#f2e5d8;stroke:#000000;stroke-width:1.14832747"
      id="hide" />
   <rect
-     id="rect3385-2-7"
-     style="fill:#f2e5d8;stroke:#000000;stroke-width:1.14832747"
-     height="22.851671"
-     width="22.851303"
-     y="0.57416373"
-     x="264.57416"
-     inkscape:label="#hide" />
-  <rect
      inkscape:label="#quit"
-     x="264.57416"
-     y="0.57416373"
+     x="264.57452"
+     y="0.57416326"
      width="22.851303"
      height="22.851671"
      style="fill:#f2e5d8;stroke:#000000;stroke-width:1.14832747"
@@ -343,7 +311,7 @@
      style="fill:#f2e5d8;stroke:#000000;stroke-width:1.14832747"
      height="22.851671"
      width="22.851303"
-     y="0.57416373"
+     y="0.57416326"
      x="240.57416"
      inkscape:label="#settings" />
   <rect
@@ -460,21 +428,21 @@
      inkscape:label="#text" />
   <rect
      x="312.63159"
-     y="120.63195"
+     y="96.631966"
      width="22.73646"
      height="22.737225"
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
      id="ext6" />
   <rect
      x="288.63196"
-     y="168.6312"
+     y="144.63121"
      width="22.73646"
      height="22.737225"
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
      id="ext9" />
   <rect
      x="312.63159"
-     y="72.631561"
+     y="48.631577"
      width="22.73646"
      height="22.737225"
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
@@ -484,46 +452,46 @@
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
      height="22.737225"
      width="22.73646"
-     y="120.63195"
+     y="96.631966"
      x="288.63159" />
   <rect
      id="ext8"
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
      height="22.737225"
      width="22.73646"
-     y="144.63158"
+     y="120.63159"
      x="312.63196" />
   <rect
      id="ext1"
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
      height="22.737225"
      width="22.73646"
-     y="72.631561"
+     y="48.631577"
      x="288.63159" />
   <rect
      id="ext4"
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
      height="22.737225"
      width="22.73646"
-     y="96.630798"
+     y="72.630814"
      x="312.63159" />
   <rect
      x="288.63159"
-     y="144.6312"
+     y="120.63122"
      width="22.73646"
      height="22.737225"
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
      id="ext7" />
   <rect
      x="288.63159"
-     y="96.630798"
+     y="72.630814"
      width="22.73646"
      height="22.737225"
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
      id="ext3" />
   <rect
      x="312.63196"
-     y="168.6312"
+     y="144.63121"
      width="22.73646"
      height="22.737225"
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
@@ -533,13 +501,45 @@
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
      height="22.737225"
      width="22.73646"
-     y="192.63158"
+     y="168.63159"
      x="288.63196" />
   <rect
      id="ext12"
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
      height="22.737225"
      width="22.73646"
-     y="192.63158"
+     y="168.63159"
      x="312.63196" />
+  <rect
+     id="ext13"
+     style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
+     height="22.737225"
+     width="22.73646"
+     y="192.63197"
+     x="288.63196"
+     inkscape:label="#rect3717" />
+  <rect
+     id="ext14"
+     style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
+     height="22.737225"
+     width="22.73646"
+     y="192.63197"
+     x="312.63196"
+     inkscape:label="#rect3719" />
+  <rect
+     x="288.63196"
+     y="216.63235"
+     width="22.73646"
+     height="22.737225"
+     style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
+     id="ext15"
+     inkscape:label="#rect3721" />
+  <rect
+     x="312.63196"
+     y="216.63235"
+     width="22.73646"
+     height="22.737225"
+     style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
+     id="ext16"
+     inkscape:label="#rect3723" />
 </svg>

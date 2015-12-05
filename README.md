@@ -3,8 +3,17 @@ This is an International Phonetic Alphabet Layout setup for the [Onboard](https:
 ![Vowels](screenshotV.png)
 ![C1](screenshotC1.png)
 ![C2](screenshotC2.png)
+![Others](screenshotOthers.png)
 
-This is still a stub. It has three functionnal panels (Vowels, Consonants 1 and 2) which will be completed by one panel for additional symbols.
+The keyboard has four panels (Vowels, Consonants 1 and 2, others), and is currently in beta version.
+
+# Usage
+
+Launch onboard. The keyboard appears on top of your windows. Click on the keyboard to insert the character. Change panels by clicking "V", "C1", "C2" or "...".
+
+For some latin letters, holding a key offers variants (some of which might already be in the keyboard):
+
+![More](screenshotMore.png)
 
 # Install
 
