@@ -51,6 +51,7 @@
         <key char="ɞ" group="Open-mid" id="D4" tooltip="open-mid central rounded" label="ɞ"/>
         <key char="ʌ" group="Open-mid" id="D5" tooltip="open-mid back unrounded" label="ʌ"/>
         <key char="ɔ" group="Open-mid" id="D6" tooltip="open-mid back rounded" label="ɔ"/>
+
         <key char="æ" group="Open-mid" id="E1" tooltip="raised open front unrounded" label="æ"/>
         <key char="ɐ" group="Open-mid" id="E2" tooltip="open-mid schwa" label="ɐ"/>
 
