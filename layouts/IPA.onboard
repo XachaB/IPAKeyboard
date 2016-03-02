@@ -341,16 +341,22 @@
         <key char="↑" group="extra" id="C12" tooltip="up step" label="↑"/>
 
 
-        <key char="̌" group="extra" id="D1" tooltip="rising" label="⚬̌"/>
-        <key char="̂" group="extra" id="D3" tooltip="falling" label="⚬̂"/>
-        <key char="᷄" group="extra" id="D5" tooltip="high rising" label="⚬᷄"/>
-        <key char="᷅" group="extra" id="D7" tooltip="high falling" label="⚬᷅"/>
-        <key char="᷈" group="extra" id="D9" tooltip="rising-falling" label="⚬᷈"/>
-        <key char="↗" group="extra" id="D11" tooltip="global rise" label="↗"/>
-        <key char="↘" group="extra" id="D12" tooltip="global fall" label="↘"/>
 
 
         <key group="legend" id="txt6" label="Contour"/>
+
+        <key char="̌" group="extra" id="D1" tooltip="rising" label="⚬̌"/>
+        <key char="˩˥" group="extra" id="D2" tooltip="rising" label="˩˥"/>
+        <key char="̂" group="extra" id="D3" tooltip="falling" label="⚬̂"/>
+        <key char="˥˩" group="extra" id="D4" tooltip="falling" label="˥˩"/>
+        <key char="᷄" group="extra" id="D5" tooltip="high rising" label="⚬᷄"/>
+        <key char="˦˥" group="extra" id="D6" tooltip="high rising" label="˦˥"/>
+        <key char="᷅" group="extra" id="D7" tooltip="low rising" label="⚬᷅"/>
+        <key char="˩˨" group="extra" id="D8" tooltip="low rising" label="˩˨"/>
+        <key char="᷈" group="extra" id="D9" tooltip="rising-falling" label="⚬᷈"/>
+        <key char="˦˥˦" group="extra" id="D10" tooltip="rising-falling" label="˦˥˦"/>
+        <key char="↗" group="extra" id="D11" tooltip="global rise" label="↗"/>
+        <key char="↘" group="extra" id="D12" tooltip="global fall" label="↘"/>
 
         <key group="legend" id="txt4" label="Diacritics for C"/>
 
