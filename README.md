@@ -1,5 +1,5 @@
 
-This is a solution for linguists who wish to type unicode IPA on linux systems.
+This is a solution for linguists who wish to type unicode [IPA](https://www.internationalphoneticassociation.org/sites/default/files/IPA_Deja_2015.pdf) on linux systems.
 *Ce dépot est une solution pour les linguistes qui souhaitent saisir des symboles unicodes de l'API sur des systèmes linux.*
 
 It is an alternative to [web based unicode IPA keyboards](http://linguistlist.org/unicode/ipa.html).
@@ -36,3 +36,5 @@ Launch onboard. The keyboard appears on top of your windows. Click on the keyboa
 For some latin letters, holding a key offers variants (some of which might already be in the keyboard):
 
 ![More](screenshotMore.png)
+
+To use with LaTeX, you need unicode to be handled, so you should use [xelatex](https://en.wikipedia.org/wiki/XeTeX) rather than pdflatex. Wether on LaTeX or on a [conventional text editor](https://www.libreoffice.org/download/libreoffice-fresh/), you also need to use a font which has good unicode coverage of the IPA. I use the [Linux Libertine](http://www.linuxlibertine.org/index.php?id=1&L=1) family, but it is not the only one and the [international phonetics association](https://www.internationalphoneticassociation.org) recommends the [DejaVu Sans](http://dejavu-fonts.org/wiki/Main_Page) font.
