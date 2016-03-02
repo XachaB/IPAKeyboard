@@ -18,8 +18,10 @@
       <panel filename="IPA-Vowels.svg" layer="Vowels">
 
 
+
         <!-- Close -->
-        <key group="legend" id="txt14" label="Close"/>
+        <key group="legend" id="txt13" label="Close"/>
+
         <key char="i" group="Close" id="A1" tooltip="close front unrounded" label="i"/>
         <key char="y" group="Close" id="A2" tooltip="close front rounded" label="y"/>
         <key char="ɨ" group="Close" id="A3" tooltip="close central unrounded" label="ɨ"/>
