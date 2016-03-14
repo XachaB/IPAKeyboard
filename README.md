@@ -1,6 +1,6 @@
 
-This is a solution for linguists who wish to type unicode [IPA](https://www.internationalphoneticassociation.org/sites/default/files/IPA_Deja_2015.pdf) on linux systems.
-*Ce dépot est une solution pour les linguistes qui souhaitent saisir des symboles unicodes de l'API sur des systèmes linux.*
+This is a solution for linguists who wish to type unicode [IPA](https://www.internationalphoneticassociation.org/sites/default/files/IPA_Deja_2015.pdf) via a virtual keyboard on linux systems.
+*Ce dépot est une solution pour les linguistes qui souhaitent saisir des symboles unicodes de l'API avec un clavier virtuel sur des systèmes linux.*
 
 It is an alternative to [web based unicode IPA keyboards](http://linguistlist.org/unicode/ipa.html).
 

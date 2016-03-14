@@ -12,102 +12,37 @@
         <color element="stroke" rgb="#DD4814"/>
         <color element="label"  rgb="#000000"/>
         <color element="dwell-progress" rgb="#f19671"/>
-        F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12,
-        Prnt, Pause, Scroll,
-        INS, DELE, HOME, END, PGUP, PGDN,
-        KPSU, KPDV KPAD, KPMU,
-        middleclick, secondaryclick, singleclick, doubleclick, dragclick, hoverclick,
-        LFSH.grid, SPCE.grid, BKSP.grid, RTRN.grid,
-        hide.wordlist
-        <!-- spelling suggestions -->
-        <key_group>
-            <color element="fill"  rgb="#e5c6b2"/>
-            <color element="label" rgb="#C00000"/>
-            correctionsbg,
-            correction
-        </key_group>
 
-        <!-- text -->
+        <!-- Legends -->
         <key_group>
             <color element="fill"  rgb="#f1f1f1"/>
-            <color element="label" rgb="#000000"/>
+            é<color element="stroke" rgb="#f1f1f1"/>
             txt1, txt2, txt3, txt4, txt5, txt6, txt7, txt8, txt9, txt10,
             txt11, txt12, txt13, txt14, txt15, txt16, txt17, txt18, txt19,
             txt20, txt21
         </key_group>
 
-        <!-- extension -->
+        <!-- extra symbols -->
         <key_group>
             <color element="fill"  rgb="#b0e0ff"/>
-            <color element="label" rgb="#000000"/>
             ext1, ext2, ext3, ext4, ext5, ext6, ext7, ext8, ext9, ext10,
             ext11, ext12, ext13, ext14, ext15, ext16, ext17, ext18, ext19,
             ext20, ext21
         </key_group>
 
-        <!-- black stroke -->
-        <key_group>
-            <color element="stroke" rgb="#404040"/>
-            icon1, icon2
-        </key_group>
-
-        <!-- pink numbers -->
-        <key_group>
-            <color element="fill" rgb="#f2d8e6"/>
-            ESC,
-            AE01, AE02, AE03, AE04, AE05, AE06, AE07, AE08, AE09, AE10, AE11, AE12,
-            KP1, KP2, KP3, KP4, KP5, KP6, KP7, KP8, KP9,
-        </key_group>
-
-        <!-- light gray, bottom row -->
-        <key_group>
-            <color element="fill" rgb="#ffffff"/>
-            RCTL, LCTL, RALT, LALT, LWIN, RWIN, MENU,
-            LEFT, RGHT, UP, DOWN,
-            KP0, KPDL,
-            hoverclick.bottom-row,
-            quit
-
-            <!-- softened active color -->
-            <key_group>
-                <color element="fill" active="true" locked="false" rgb="#c1c1c1"/>
-                hide, showclick, move, layer
-            </key_group>
-        </key_group>
-
         <!-- orange -->
         <key_group>
             <color element="fill" rgb="#f19671"/>
-            SPCE, LFSH, RTSH,
             settings
-            <key_group>
-                <color element="stroke" rgb="#404040"/>
-                icon0
-            </key_group>
         </key_group>
+
 
         <!-- aubergine -->
         <key_group>
             <color element="fill" rgb="#d98fb7"/>
-            BKSP, DELE.next-to-backspace, TAB, CAPS, RTRN, KPEN, NMLK,
-            layer.like_rtrn, LFSH.like_rtrn, layer1, layer2, layer3, layer0,
-            <key_group>
-                <color element="stroke" rgb="#404040"/>
-                icon3
-            </key_group>
+            layer1, layer2, layer3, layer0
         </key_group>
 
-        <!-- snippets -->
-        <key_group>
-            <color element="fill" rgb="#d6c8ff"/>
-            <color element="stroke" rgb="#DD4814"/>
-            m0, m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15
-        </key_group>
-
-        <!-- red preferences -->
-        <key_group>
-            <color element="fill" rgb="#f27f7f"/>
-        </key_group>
     </key_group>
 
 </color_scheme>
