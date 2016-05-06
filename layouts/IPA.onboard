@@ -10,9 +10,6 @@
   <!-- the rows of keys on the Onboard keyboard are counted bottom to top starting with 1 -->
   <box border="1" orientation="vertical" spacing="1.0">
     <!--- word suggestions -->
-    <panel filename="IPA-Alpha.svg">
-      <include file="word_suggestions.xml"/>
-    </panel>
     <panel  font="20">
       <!-- alpha layers -->
       <panel filename="IPA-Vowels.svg" layer="Vowels">
