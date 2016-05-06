@@ -33,14 +33,14 @@
         <!-- orange -->
         <key_group>
             <color element="fill" rgb="#f19671"/>
-            settings
+            layer1, layer2, layer3, layer0
+            settings, hide, quit, move
         </key_group>
 
 
         <!-- aubergine -->
         <key_group>
             <color element="fill" rgb="#d98fb7"/>
-            layer1, layer2, layer3, layer0
         </key_group>
 
     </key_group>
