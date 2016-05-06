@@ -1,0 +1,408 @@
+<?xml version="1.0" ?>
+
+<keyboard author="Sarah Beniamine" description="International Phonetic Alphabet" format="3.1" id="IPA (compact)" section="contributions" summary="Special characters for IPA, more compact keyboard, big keys.">
+  <include file="key_defs.xml"/>
+  <key_template button="false" id="layer0" label="V" tooltip="vowels"/>
+  <key_template button="false" id="layer1" label="C1" tooltip="c1"/>
+  <key_template button="false" id="layer2" label="C2" tooltip="c2"/>
+  <key_template button="falsef" id="layer3" label="..." tooltip="others"/>
+  <!-- box containing all the keys and buttons -->
+  <!-- the rows of keys on the Onboard keyboard are counted bottom to top starting with 1 -->
+  <box border="1" orientation="vertical" spacing="1.0">
+    <panel  font="20">
+      <!-- alpha layers -->
+      <panel filename="IPA-Vowels-compact.svg" layer="Vowels">
+
+
+
+        <!-- Close -->
+        <key group="legend" id="txt13" label="Close"/>
+
+        <key char="i" group="Close" id="A1" tooltip="close front unrounded" label="i"/>
+        <key char="y" group="Close" id="A2" tooltip="close front rounded" label="y"/>
+        <key char="ɨ" group="Close" id="A3" tooltip="close central unrounded" label="ɨ"/>
+        <key char="ʉ" group="Close" id="A4" tooltip="close central rounded" label="ʉ"/>
+        <key char="ɯ" group="Close" id="A5" tooltip="close back unrounded" label="ɯ"/>
+        <key char="u" group="Close" id="A6" tooltip="close back unrounded" label="u"/>
+
+        <key char="ɪ" group="Close" id="B1" tooltip="lax close front unrounded" label="ɪ"/>
+        <key char="ʏ" group="Close" id="B2" tooltip="lax close front rounded" label="ʏ"/>
+        <key char="ʊ" group="Close" id="B3" tooltip="lax close back rounded" label="ʊ"/>
+
+        <!-- Close-mid -->
+        <key group="legend" id="txt15" label="Close-mid"/>
+        <key char="e" group="Close-mid" id="C1" tooltip="front close-mid unrounded" label="e"/>
+        <key char="ø" group="Close-mid" id="C2" tooltip="front close-mid rounded" label="ø"/>
+        <key char="ɘ" group="Close-mid" id="C3" tooltip="schwa" label="ɘ"/>
+        <key char="ɵ" group="Close-mid" id="C4" tooltip="rounded schwa" label="ɵ"/>
+        <key char="ɤ" group="Close-mid" id="C5" tooltip="close-mid back unrounded" label="ɤ"/>
+        <key char="o" group="Close-mid" id="C6" tooltip="close-mid back rounded" label="o"/>
+
+
+        <key char="ə" group="Close-mid" id="X" tooltip="schwa" label="ə"/>
+
+        <!-- Open mid -->
+        <key group="legend" id="txt17" label="Open-mid"/>
+        <key char="ɛ" group="Open-mid" id="D1" tooltip="open-mid front unrounded" label="ɛ"/>
+        <key char="œ" group="Open-mid" id="D2" tooltip="front open-mid rounded" label="œ"/>
+        <key char="ɜ" group="Open-mid" id="D3" tooltip="open-mid central" label="ɜ"/>
+        <key char="ɞ" group="Open-mid" id="D4" tooltip="open-mid central rounded" label="ɞ"/>
+        <key char="ʌ" group="Open-mid" id="D5" tooltip="open-mid back unrounded" label="ʌ"/>
+        <key char="ɔ" group="Open-mid" id="D6" tooltip="open-mid back rounded" label="ɔ"/>
+
+        <key char="æ" group="Open-mid" id="E1" tooltip="raised open front unrounded" label="æ"/>
+        <key char="ɐ" group="Open-mid" id="E2" tooltip="open-mid schwa" label="ɐ"/>
+
+        <!-- Open -->
+        <key group="legend" id="txt19" label="Open"/>
+        <key char="a" group="Open" id="F1" tooltip="front open unrounded" label="a"/>
+        <key char="ɶ" group="Open" id="F2" tooltip="front open rounded" label="ɶ"/>
+        <key char="ɑ" group="Open" id="F3" tooltip="open back unrounded" label="ɑ"/>
+        <key char="ɒ" group="Open" id="F4" tooltip="open back rounded" label="ɒ"/>
+
+
+        <!-- Extra -->
+        <key char="̃" group="extra" id="ext1" tooltip="nasalised" label="⚬̃"/>
+        <key char="˞" group="extra" id="ext2" tooltip="rhoticity" label="˞"/>
+
+        <key char="̯" group="extra" id="ext3" tooltip="non syllabic" label="⚬̯"/>
+        <key char="ː" group="extra" id="ext4" tooltip="long" label="ː"/>
+
+        <key char="̹" group="extra" id="ext5" tooltip="more rounded" label="⚬̹"/>
+        <key char="̜" group="extra" id="ext6" tooltip="less rounded" label="⚬̜"/>
+
+        <key char="̟" group="extra" id="ext7" tooltip="advanced" label="⚬̟"/>
+        <key char="̱" group="extra" id="ext8" tooltip="retracted" label="⚬̱"/>
+
+        <key char="̈" group="extra" id="ext9" tooltip="centralized" label="⚬̈"/>
+        <key char="̽" group="extra" id="ext10" tooltip="mid-centralized" label="⚬̽"/>
+
+
+        <key char="̝" group="extra" id="ext11" tooltip="raised" label="⚬̝"/>
+        <key char="̞" group="extra" id="ext12" tooltip="lowered" label="⚬̞"/>
+
+        <key char="̘" group="extra" id="ext13" tooltip="advanced tongue root" label="⚬̘"/>
+        <key char="̙" group="extra" id="ext14" tooltip="retracted tongue root" label="⚬̙"/>
+        <key char="ɚ" group="extra" id="ext15" tooltip="rhotacized schwa" label="ɚ"/>
+        <key char="ɝ" group="extra" id="ext16" tooltip="rhotacized open-mid central" label="ɝ"/>
+
+        <key group="legend" id="txt1" label="Front"/>
+        <key group="legend" id="txt3" label="Central"/>
+        <key group="legend" id="txt5" label="Back"/>
+        <key group="legend" id="txt6" label="Combining"/>
+        <key group="bottomrow" id="layer1" />
+        <key group="bottomrow" id="layer2"/>
+        <key group="bottomrow" id="layer3"/>
+        <key group="bottomrow" id="layer0"/>
+        <key group="click" id="hide" tooltip="hide keyboard"/>
+        <key group="click" id="quit" tooltip="quit keyboard"/>
+        <key group="click" id="settings" tooltip="settings"/>
+        <key group="click" id="move" tooltip="move"/>
+      </panel>
+      <panel filename="IPA-C1-compact.svg" layer="C1">
+
+        <key group="legend" id="txt1" label="Bilabial"/>
+        <key group="legend" id="txt2" label="Labiodental"/>
+        <key group="legend" id="txt3" label="Dental"/>
+        <key group="legend" id="txt4" label="Alveolar"/>
+        <key group="legend" id="txt5" label="Postalveolar"/>
+
+
+        <!-- Occlusives -->
+        <key group="legend" id="txt12" label="Plosive"/>
+        <key char="p" group="Plosive" id="A1" tooltip="vl bilabial plosive" label="p"/>
+        <key char="b" group="Plosive" id="A2" tooltip="vd bilabial plosive" label="b"/>
+        <key char="t" group="Plosive" id="A3" tooltip="vl labiodental plosive" label="t"/>
+        <key char="d" group="Plosive" id="A4" tooltip="vd labiodental plosive" label="d"/>
+
+
+        <!-- nasal -->
+        <key group="legend" id="txt13" label="Nasal"/>
+        <key char="m" group="Nasal" id="B1" tooltip="bilabial nasal" label="m"/>
+        <key char="ɱ" group="Nasal" id="B2" tooltip="vd labiodental nasal" label="ɱ"/>
+        <key char="n" group="Nasal" id="B3" tooltip="dental nasal" label="n"/>
+
+
+        <!-- Trill -->
+        <key group="legend" id="txt14" label="Trill"/>
+        <key char="ʙ" group="Trill" id="C1" tooltip="vd bilabial trill" label="ʙ"/>
+        <key char="r" group="Trill" id="C2" tooltip="vd alveolar trill" label="r"/>
+
+
+
+        <!-- tap/flap -->
+        <key group="legend" id="txt15" label="Tap/Flap"/>
+        <key char="ɾ" group="Tap/Flap" id="D1" tooltip="vd alveolar tap" label="ɾ"/>
+
+
+        <!-- fricatives -->
+        <key group="legend" id="txt16" label="Fricative"/>
+        <key char="ɸ" group="Fricative" id="E1" tooltip="vl bilabial fricative" label="ɸ"/>
+        <key char="β" group="Fricative" id="E2" tooltip="vd bilabial fricative" label="β"/>
+        <key char="f" group="Fricative" id="E3" tooltip="vl labiodental fricative" label="f"/>
+        <key char="v" group="Fricative" id="E4" tooltip="vd labiodental fricative" label="v"/>
+        <key char="θ" group="Fricative" id="E5" tooltip="vl dental fricative" label="θ"/>
+        <key char="ð" group="Fricative" id="E6" tooltip="vd dental fricative" label="ð"/>
+        <key char="s" group="Fricative" id="E7" tooltip="vl alveolar fricative" label="s"/>
+        <key char="z" group="Fricative" id="E8" tooltip="vd alveolar fricative" label="z"/>
+        <key char="ʃ" group="Fricative" id="E9" tooltip="vl postalveolar fricative" label="ʃ"/>
+        <key char="ʒ" group="Fricative" id="E10" tooltip="vd postalveolar fricative" label="ʒ"/>
+
+        <!-- lateral-->
+        <key group="legend" id="txt17" label="Lateral fricative"/>
+        <key char="ɬ" group="Lateral fricative" id="F1" tooltip="vl alveolar lateral fricative" label="ɬ"/>
+        <key char="ɮ" group="Lateral fricative" id="F2" tooltip="vd alveolar lateral fricative" label="ɮ"/>
+
+
+
+        <!-- Approximant-->
+        <key group="legend" id="txt18" label="Approximant"/>
+        <key char="ʋ" group="Approximant" id="G1" tooltip="vd labiodental approximant" label="ʋ"/>
+        <key char="ɹ" group="Approximant" id="G2" tooltip="vd (post)alveolar approximant" label="ɹ"/>
+
+
+        <!-- Lateral approximant-->
+        <key group="legend" id="txt19" label="Lateral approximant"/>
+<key char="l" group="alphanumeric" id="H1" tooltip="vd alveolar lateral" label="l"/>
+
+        <!-- Extra -->
+
+        <key group="legend" id="txt6" label="Extra"/>
+
+        <key char="ɥ" group="extra1" id="ext1" tooltip="labial-palatal approximant" label="ɥ"/>
+        <key char="ʍ" group="extra2" id="ext2" tooltip="vl labial-velar fricative" label="ʍ"/>
+
+
+        <key char="ɓ" group="extra2" id="ext3" tooltip="vd bilabial implosive" label="ɓ"/>
+        <key char="ɗ" group="extra7" id="ext4" tooltip="vd alveolar implosive" label="ɗ"/>
+
+        <key char="ɕ" group="extra5" id="ext5" tooltip="vl alveolopalatal fricative" label="ɕ"/>
+        <key char="ʑ" group="extra6" id="ext6" tooltip="vd alveolopalatal fricative" label="ʑ"/>
+
+
+        <key char="ɺ" group="extra9" id="ext7" tooltip="vd alveolar lateral flap" label="ɺ"/>
+        <key char="ⱱ" group="extra4" id="ext8" tooltip="vd labiodental flap" label="ⱱ"/>
+
+        <key char="ʧ" group="extra1" id="ext9" tooltip="vl postalveolar affricate" label="ʧ"/>
+        <key char="ʤ" group="extra1" id="ext10" tooltip="vd postalveolar affricate" label="ʤ"/>
+
+        <key char="ʦ" group="extra1" id="ext11" tooltip="vl dental affricate" label="ʦ"/>
+        <key char="ʣ" group="extra1" id="ext12" tooltip="vd dental affricate" label="ʣ"/>
+
+        <key char="ʨ" group="extra1" id="ext13" tooltip="vl alveolopalatal affricate" label="ʨ"/>
+        <key char="ʥ" group="extra1" id="ext14" tooltip="vd alveolopalatal affricate" label="ʥ"/>
+
+        <key char="ɫ" group="extra8" id="ext15" tooltip="velarized vd alveolar lateral" label="ɫ"/>
+
+        <key group="bottomrow" id="layer1" />
+        <key group="bottomrow" id="layer2"/>
+        <key group="bottomrow" id="layer3"/>
+        <key group="bottomrow" id="layer0"/>
+        <key group="click" id="hide" tooltip="hide keyboard"/>
+        <key group="click" id="quit" tooltip="quit keyboard"/>
+        <key group="click" id="settings" tooltip="settings"/>
+        <key group="click" id="move" tooltip="move"/>
+
+      </panel>
+
+      <panel filename="IPA-C2-compact.svg" layer="C2">
+
+
+        <key group="legend" id="txt12" label="Plosive"/>
+        <key char="ʈ" group="Plosive" id="A5" tooltip="vl retroflex plosive" label="ʈ"/>
+        <key char="ɖ" group="Plosive" id="A6" tooltip="vd retroflex plosive" label="ɖ"/>
+        <key char="c" group="Plosive" id="A7" tooltip="vl palatal plosive" label="c"/>
+        <key char="ɟ" group="Plosive" id="A8" tooltip="vd palatal plosive" label="ɟ"/>
+        <key char="k" group="Plosive" id="A9" tooltip="vl velar plosive" label="k"/>
+        <key char="ɡ" group="Plosive" id="A10" tooltip="vd velar plosive" label="ɡ"/>
+        <key char="q" group="Plosive" id="A11" tooltip="vl uvular plosive" label="q"/>
+        <key char="ɢ" group="Plosive" id="A12" tooltip="vd uvular plosive" label="ɢ"/>
+        <key char="ʔ" group="Plosive" id="A13" tooltip="glottal plosive" label="ʔ"/>
+
+        <key group="legend" id="txt13" label="Nasal"/>
+        <key char="ɳ" group="Nasal" id="B4" tooltip="vd retroflex nasal" label="ɳ"/>
+        <key char="ɲ" group="Nasal" id="B5" tooltip="vd palatal nasal" label="ɲ"/>
+        <key char="ŋ" group="Nasal" id="B6" tooltip="vd velar nasal" label="ŋ"/>
+        <key char="ɴ" group="Nasal" id="B7" tooltip="vd uvular nasal" label="ɴ"/>
+
+        <key group="legend" id="txt14" label="Trill"/>
+        <key char="ʀ" group="Trill" id="C3" tooltip="vd uvular trill" label="ʀ"/>
+
+
+        <!-- tap/flap -->
+        <key group="legend" id="txt15" label="Tap/Flap"/>
+        <key char="ɽ" group="Tap/Flap" id="D2" tooltip="vd retroflex flap" label="ɽ"/>
+
+        <!-- Fricatives -->
+        <key group="legend" id="txt16" label="Fricative"/>
+        <key char="ʂ" group="Fricative" id="E11" tooltip="vl retroflex fricative" label="ʂ"/>
+        <key char="ʐ" group="Fricative" id="E12" tooltip="vd retroflex fricative" label="ʐ"/>
+        <key char="ç" group="Fricative" id="E13" tooltip="vl palatal fricative" label="ç"/>
+        <key char="ʝ" group="Fricative" id="E14" tooltip="vd palatal fricative" label="ʝ"/>
+        <key char="x" group="Fricative" id="E15" tooltip="vl velar fricative" label="x"/>
+        <key char="ɣ" group="Fricative" id="E16" tooltip="vd velar fricative" label="ɣ"/>
+        <key char="χ" group="Fricative" id="E17" tooltip="vl uvular fricative" label="χ"/>
+        <key char="ʁ" group="Fricative" id="E18" tooltip="vd uvular fricative" label="ʁ"/>
+        <key char="ħ" group="Fricative" id="E19" tooltip="vl pharyngeal fricative" label="ħ"/>
+        <key char="ʕ" group="Fricative" id="E20" tooltip="vd pharyngeal fricative" label="ʕ"/>
+        <key char="h" group="Fricative" id="E21" tooltip="vl glottal fricative" label="h"/>
+        <key char="ɦ" group="Fricative" id="E22" tooltip="vd glottal fricative" label="ɦ"/>
+
+
+        <key group="legend" id="txt17" label="Lateral fricative"/>
+
+        <!-- Approximant-->
+        <key group="legend" id="txt18" label="Approximant"/>
+        <key char="ʋ" group="Lateral fricative" id="G3" tooltip="vd labiodental approximant" label="ʋ"/>
+        <key char="ɹ" group="Lateral fricative" id="G4" tooltip="vd (post)alveolar approximant" label="ɹ"/>
+        <key char="ɻ" group="Lateral fricative" id="G5" tooltip="vd retroflex approximant" label="ɻ"/>
+        <key char="j" group="Lateral fricative" id="G6" tooltip="palatal approximant" label="j"/>
+        <key char="ɰ" group="Lateral fricative" id="G7" tooltip="velar approximant" label="ɰ"/>
+
+        <!-- Lateral approximant-->
+        <key group="legend" id="txt19" label="Lateral approximant"/>
+        <key char="ɭ" group="Lateral approximant" id="H2" tooltip="vd retroflex lateral" label="ɭ"/>
+        <key char="ʎ" group="Lateral approximant" id="H3" tooltip="vd palatal lateral" label="ʎ"/>
+
+        <key char="ʟ" group="Lateral approximant" id="H4" tooltip="vd velar lateral" label="ʟ"/>
+
+        <!-- Extra -->
+
+        <key group="legend" id="txt20" label="Extra"/>
+        <key char="ʄ" group="extra1" id="ext1" tooltip="vd palatal implosive" label="ʄ"/>
+        <key char="ɠ" group="extra2" id="ext2" tooltip="vd velar implosive" label="ɠ"/>
+        <key char="ʛ" group="extra3" id="ext3" tooltip="vd uvular implosive" label="ʛ"/>
+        <key char="ʜ" group="extra4" id="ext4" tooltip="vl epiglottal fricative" label="ʜ"/>
+        <key char="ʡ" group="extra5" id="ext5" tooltip="vd epiglottal plosive" label="ʡ"/>
+        <key char="ʢ" group="extra6" id="ext6" tooltip="vd epiglottal fricative" label="ʢ"/>
+        <key char="ɧ" group="extra7" id="ext7" tooltip="vl multiple-place fricative" label="ɧ"/>
+
+
+
+        <key group="legend" id="txt6" label="Retroflex"/>
+        <key group="legend" id="txt7" label="Palatal"/>
+        <key group="legend" id="txt8" label="Velar"/>
+        <key group="legend" id="txt9" label="Uvular"/>
+        <key group="legend" id="txt10" label="Pharyngal"/>
+        <key group="legend" id="txt11" label="Glottal"/>
+        <key group="bottomrow" id="layer1" />
+        <key group="bottomrow" id="layer2"/>
+        <key group="bottomrow" id="layer3"/>
+        <key group="bottomrow" id="layer0"/>
+        <key group="click" id="hide" tooltip="hide keyboard"/>
+        <key group="click" id="quit" tooltip="quit keyboard"/>
+        <key group="click" id="settings" tooltip="settings"/>
+        <key group="click" id="move" tooltip="move"/>
+
+    </panel>
+    <panel filename="IPA-others-compact.svg" layer="Others">
+
+        <!-- Clicks-->
+        <key group="legend" id="txt1" label="Clicks"/>
+        <key char="ǀ" group="alphanumeric" id="A1" tooltip="dental click" label="ǀ"/>
+        <key char="ǁ" group="alphanumeric" id="A2" tooltip="alveolar lateral click" label="ǁ"/>
+        <key char="ǂ" group="alphanumeric" id="A3" tooltip="alveolar click" label="ǂ"/>
+        <key char="ǃ" group="alphanumeric" id="A4" tooltip="retroflex click" label="ǃ"/>
+        <key char="ʘ" group="alphanumeric" id="A5" tooltip="bilabial click" label="ʘ"/>
+
+        <!-- Suprasegmental -->
+        <key group="legend" id="txt2" label="Suprasegmental"/>
+
+        <key char="ˈ" group="extra" id="B1" tooltip="stress" label="ˈ"/>
+        <key char="ˌ" group="extra" id="B2" tooltip="secondary stress" label="ˌ"/>
+        <key char="ˑ" group="extra" id="B3" tooltip="half-long" label="ˑ"/>
+        <key char="˘" group="extra" id="B4" tooltip="extra short" label="˘"/>
+        <key char="∣" group="extra" id="B5" tooltip="minor (foot) group" label="∣"/>
+        <key char="∥" group="extra" id="B6" tooltip="major (intonation) group" label="∥"/>
+        <key char="." group="extra" id="B7" tooltip="syllable break" label="."/>
+        <key char="͜" group="extra" id="B8" tooltip="linking" label="⚬͜⚬"/>
+
+
+
+        <!-- Level -->
+        <key group="legend" id="txt3" label="Tones and word accents"/>
+        <key group="legend" id="txt5" label="Level"/>
+        <key char="̋" group="extra" id="C1" tooltip="extra high" label="⚬̋"/>
+        <key char="˥" group="extra" id="C2" tooltip="extra high" label="˥"/>
+        <key char="́" group="extra" id="C3" tooltip="high" label="⚬́"/>
+        <key char="˦" group="extra" id="C4" tooltip="high" label="˦"/>
+        <key char="̄" group="extra" id="C5" tooltip="mid" label="⚬̄"/>
+        <key char="˧" group="extra" id="C6" tooltip="mid" label="˧"/>
+        <key char="̀" group="extra" id="C7" tooltip="low" label="⚬̀"/>
+        <key char="˨" group="extra" id="C8" tooltip="low" label="˨"/>
+        <key char="̏" group="extra" id="C9" tooltip="extra low" label="⚬̏"/>
+        <key char="˩" group="extra" id="C10" tooltip="extra low" label="˩"/>
+
+        <key char="↓" group="extra" id="C11" tooltip="down step" label="↓"/>
+        <key char="↑" group="extra" id="C12" tooltip="up step" label="↑"/>
+
+
+
+
+        <key group="legend" id="txt6" label="Contour"/>
+
+        <key char="̌" group="extra" id="D1" tooltip="rising" label="⚬̌"/>
+        <key char="˩˥" group="extra" id="D2" tooltip="rising" label="˩˥"/>
+        <key char="̂" group="extra" id="D3" tooltip="falling" label="⚬̂"/>
+        <key char="˥˩" group="extra" id="D4" tooltip="falling" label="˥˩"/>
+        <key char="᷄" group="extra" id="D5" tooltip="high rising" label="⚬᷄"/>
+        <key char="˦˥" group="extra" id="D6" tooltip="high rising" label="˦˥"/>
+        <key char="᷅" group="extra" id="D7" tooltip="low rising" label="⚬᷅"/>
+        <key char="˩˨" group="extra" id="D8" tooltip="low rising" label="˩˨"/>
+        <key char="᷈" group="extra" id="D9" tooltip="rising-falling" label="⚬᷈"/>
+        <key char="˦˥˦" group="extra" id="D10" tooltip="rising-falling" label="˦˥˦"/>
+        <key char="↗" group="extra" id="D11" tooltip="global rise" label="↗"/>
+        <key char="↘" group="extra" id="D12" tooltip="global fall" label="↘"/>
+
+        <key group="legend" id="txt4" label="Diacritics for C"/>
+
+        <!-- supra segmental -->
+        <key char="͜" group="extra" id="E1" tooltip="affricate" label="⚬͜⚬"/>
+        <key char="͡" group="extra" id="E2" tooltip="affricate" label="⚬͡⚬"/>
+        <key char="̩" group="extra" id="E3" tooltip="syllabic" label="⚬̩"/>
+
+        <!-- Articulation -->
+
+        <key char="ʷ" group="extra" id="E5" tooltip="labialized" label="ʷ"/>
+        <key char="ⁿ" group="extra" id="E6" tooltip="nasal release" label="ⁿ"/>
+        <key char="ˡ" group="extra" id="E7" tooltip="lateral release" label="ˡ"/>
+        <key char="ʲ" group="extra" id="E8" tooltip="palatalized" label="ʲ"/>
+
+        <key char="ˠ" group="extra" id="E9" tooltip="celarized" label="ˠ"/>
+        <key char="ˤ" group="extra" id="E10" tooltip="pharyngealized" label="ˤ"/>
+        <key char="ʰ" group="extra" id="E11" tooltip="aspirated" label="ʰ"/>
+        <key char="ʱ" group="extra" id="E12" tooltip="breathy-voice-aspirated" label="ʱ"/>
+        <key char="ʴ" group="extra" id="E13" tooltip="rhotacized" label="ʴ"/>
+        <key char="ʼ" group="extra" id="E14" tooltip="ejective" label="ʼ"/>
+        <key char="˺" group="extra" id="E15" tooltip="no audible release" label="˺"/>
+        <key char="̼" group="extra" id="E16" tooltip="linguo labial" label="⚬̼"/>
+        <key char="̴" group="extra" id="E17" tooltip="velarized or pharyngealized" label="⚬̴"/>
+        <key char="̝" group="extra" id="E18" tooltip="raised" label="⚬̝"/>
+        <key char="̺" group="extra" id="E19" tooltip="dental" label="⚬̺"/>
+        <key char="̪" group="extra" id="E20" tooltip="apical" label="⚬̪"/>
+        <key char="̻" group="extra" id="E21" tooltip="laminal" label="⚬̻"/>
+        <key char="̞" group="extra" id="E22" tooltip="lowered" label="⚬̞"/>
+
+
+        <!-- voice -->
+        <key char="̬" group="extra" id="E23" tooltip="voiced" label="⚬̬"/>
+        <key char="̌" group="extra" id="E24" tooltip="voiced" label="⚬̌"/>
+        <key char="̥" group="extra" id="E25" tooltip="voiceless" label="⚬̥"/>
+        <key char="̊" group="extra" id="E26" tooltip="voiceless" label="⚬̊"/>
+        <key char="̰" group="extra" id="E27" tooltip="creaky voice" label="⚬̰"/>
+        <key char="̤" group="extra" id="E28" tooltip="breathy voice" label="⚬̤"/>
+
+
+
+        <key group="bottomrow" id="layer1" />
+        <key group="bottomrow" id="layer2"/>
+        <key group="bottomrow" id="layer3"/>
+        <key group="bottomrow" id="layer0"/>
+        <key group="click" id="hide" tooltip="hide keyboard"/>
+        <key group="click" id="quit" tooltip="quit keyboard"/>
+        <key group="click" id="settings" tooltip="settings"/>
+        <key group="click" id="move" tooltip="move"/>
+        </panel>
+    </panel>
+  </box>
+</keyboard>
