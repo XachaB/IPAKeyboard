@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 
-<keyboard author="Sarah Beniamine" description="International Phonetic Alphabet" format="3.1" id="IPA" section="contributions" summary="Special characters for IPA">
+<keyboard author="Sacha Beniamine" description="International Phonetic Alphabet" format="3.1" id="IPA" section="contributions" summary="Special characters for IPA">
   <include file="key_defs.xml"/>
   <key_template button="false" id="layer0" label="V" tooltip="vowels"/>
   <key_template button="false" id="layer1" label="C1" tooltip="c1"/>
@@ -12,7 +12,7 @@
     <!--- word suggestions -->
     <panel  font="20">
       <!-- alpha layers -->
-      <panel filename="IPA-Vowels.svg" layer="Vowels">
+      <panel filename="IPA-Vowels.svg" layer="Vowels" unlatch_layer="false">
 
 
 
@@ -100,7 +100,7 @@
         <key group="click" id="settings" tooltip="settings"/>
         <key group="click" id="move" tooltip="move"/>
       </panel>
-      <panel filename="IPA-C1.svg" layer="C1">
+      <panel filename="IPA-C1.svg" layer="C1"  unlatch_layer="false">
 
         <key group="legend" id="txt1" label="Bilabial"/>
         <key group="legend" id="txt2" label="Labiodental"/>
@@ -206,7 +206,7 @@
 
       </panel>
 
-      <panel filename="IPA-C2.svg" layer="C2">
+      <panel filename="IPA-C2.svg" layer="C2"  unlatch_layer="false">
 
 
         <key group="legend" id="txt12" label="Plosive"/>
@@ -296,7 +296,7 @@
         <key group="click" id="move" tooltip="move"/>
 
     </panel>
-    <panel filename="IPA-others.svg" layer="Others">
+    <panel filename="IPA-others.svg" layer="Others" unlatch_layer="false">
 
         <!-- Clicks-->
         <key group="legend" id="txt1" label="Clicks"/>

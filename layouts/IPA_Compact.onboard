@@ -11,7 +11,7 @@
   <box border="1" orientation="vertical" spacing="1.0">
     <panel  font="20">
       <!-- alpha layers -->
-      <panel filename="IPA-Vowels-compact.svg" layer="Vowels">
+      <panel filename="IPA-Vowels-compact.svg" layer="Vowels" unlatch_layer="false">
 
 
 
@@ -99,7 +99,7 @@
         <key group="click" id="settings" tooltip="settings"/>
         <key group="click" id="move" tooltip="move"/>
       </panel>
-      <panel filename="IPA-C1-compact.svg" layer="C1">
+      <panel filename="IPA-C1-compact.svg" layer="C1" unlatch_layer="false">
 
         <key group="legend" id="txt1" label="Bilabial"/>
         <key group="legend" id="txt2" label="Labiodental"/>
@@ -205,7 +205,7 @@
 
       </panel>
 
-      <panel filename="IPA-C2-compact.svg" layer="C2">
+      <panel filename="IPA-C2-compact.svg" layer="C2" unlatch_layer="false">
 
 
         <key group="legend" id="txt12" label="Plosive"/>
@@ -295,7 +295,7 @@
         <key group="click" id="move" tooltip="move"/>
 
     </panel>
-    <panel filename="IPA-others-compact.svg" layer="Others">
+    <panel filename="IPA-others-compact.svg" layer="Others" unlatch_layer="false">
 
         <!-- Clicks-->
         <key group="legend" id="txt1" label="Clicks"/>
