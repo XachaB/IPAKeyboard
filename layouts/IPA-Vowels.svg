@@ -13,7 +13,7 @@
    height="240.00151"
    width="336.00076"
    version="1.0"
-   inkscape:version="0.91 r"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="IPA-Vowels.svg">
   <defs
      id="defs84" />
@@ -26,15 +26,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1364"
-     inkscape:window-height="766"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
      id="namedview82"
      showgrid="true"
-     inkscape:zoom="2.2344574"
-     inkscape:cx="148.78914"
-     inkscape:cy="70.466078"
+     inkscape:zoom="1.58"
+     inkscape:cx="149.80185"
+     inkscape:cy="-27.935056"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="21"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      inkscape:snap-global="true"
@@ -190,14 +190,14 @@
      height="22.737225"
      width="22.73646"
      y="216.63194"
-     x="240.63121" />
+     x="216.63121" />
   <rect
      id="F2"
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
      height="22.737225"
      width="22.73646"
      y="216.63194"
-     x="216.6312" />
+     x="156.6312" />
   <rect
      id="D3"
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
@@ -549,4 +549,11 @@
      height="22.737225"
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
      id="D6" />
+  <rect
+     x="240.63123"
+     y="216.63194"
+     width="22.73646"
+     height="22.737225"
+     style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315784"
+     id="F4" />
 </svg>

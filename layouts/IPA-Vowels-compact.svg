@@ -13,7 +13,7 @@
    height="192"
    width="240"
    version="1.0"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="IPA-Vowels-compact.svg">
   <defs
      id="defs84" />
@@ -26,15 +26,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="717"
+     inkscape:window-width="3840"
+     inkscape:window-height="2102"
      id="namedview82"
      showgrid="true"
-     inkscape:zoom="1.1172287"
-     inkscape:cx="-135.0416"
-     inkscape:cy="38.035666"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:zoom="4.4689148"
+     inkscape:cx="-12.366681"
+     inkscape:cy="16.089745"
+     inkscape:window-x="1920"
+     inkscape:window-y="30"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      inkscape:snap-global="true"
@@ -63,7 +63,8 @@
     <sodipodi:guide
        orientation="1,0"
        position="192.21669,110.54138"
-       id="guide4689" />
+       id="guide4689"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata3346">
@@ -73,7 +74,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -128,8 +129,8 @@
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315761"
      height="22.88069"
      width="22.967728"
-     y="167.93059"
-     x="84.189079"
+     y="168.55815"
+     x="70.231575"
      inkscape:label="#F1" />
   <rect
      id="D1"
@@ -199,15 +200,15 @@
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315761"
      height="22.88069"
      width="22.967728"
-     y="167.9306"
-     x="191.93877" />
+     y="168.55815"
+     x="168.63158" />
   <rect
      id="F2"
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315761"
      height="22.88069"
      width="22.967728"
-     y="168.17642"
-     x="168.17661" />
+     y="168.55815"
+     x="94.231575" />
   <rect
      id="D3"
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315761"
@@ -431,4 +432,11 @@
      height="22.88069"
      style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315761"
      id="D6" />
+  <rect
+     x="192.51613"
+     y="168.48622"
+     width="22.967728"
+     height="22.88069"
+     style="fill:#e5d8b2;stroke:#000000;stroke-width:1.26315761"
+     id="F4" />
 </svg>
