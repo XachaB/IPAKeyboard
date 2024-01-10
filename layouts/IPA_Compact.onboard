@@ -311,7 +311,7 @@
         <key char="ˈ" group="extra" id="B1" tooltip="stress" label="ˈ"/>
         <key char="ˌ" group="extra" id="B2" tooltip="secondary stress" label="ˌ"/>
         <key char="ˑ" group="extra" id="B3" tooltip="half-long" label="ˑ"/>
-        <key char="˘" group="extra" id="B4" tooltip="extra short" label="˘"/>
+        <key char="̆" group="extra" id="B4" tooltip="extra short" label="⚬̆"/>
         <key char="∣" group="extra" id="B5" tooltip="minor (foot) group" label="∣"/>
         <key char="∥" group="extra" id="B6" tooltip="major (intonation) group" label="∥"/>
         <key char="." group="extra" id="B7" tooltip="syllable break" label="."/>
