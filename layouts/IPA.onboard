@@ -316,7 +316,7 @@
         <key char="∣" group="extra" id="B5" tooltip="minor (foot) group" label="∣"/>
         <key char="∥" group="extra" id="B6" tooltip="major (intonation) group" label="∥"/>
         <key char="." group="extra" id="B7" tooltip="syllable break" label="."/>
-        <key char="͜" group="extra" id="B8" tooltip="linking" label="⚬͜⚬"/>
+        <key char="‿" group="extra" id="B8" tooltip="linking" label="‿"/>
 
 
 
